@@ -11,15 +11,14 @@ protected:
 	virtual ~CLevel() = default;
 public:
 	virtual HRESULT NativeConstruct(); // 기본구성(초기화)
-	virtual _int Tick(_float timedelta);
-	virtual _int LateTick(_float timedelta);
 	virtual HRESULT Render();
 
 protected:
 	// 장치 보관
-	LPDIRECT3DDEVICE9	mpGraphicDevice;
+	LPDIRECT3DDEVICE9	mpGraphicDevice22;
 
 public:
+	static void Create(); // 생성
 	virtual void Free() override; // 장치를 지워준다.
 };
 
