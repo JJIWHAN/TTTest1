@@ -16,6 +16,8 @@ public:
 protected:
 	// 장치 보관
 	LPDIRECT3DDEVICE9	mpGraphicDevice22;
+LPDIRECT3DDEVICE9	mpGraphicDevice11;
+LPDIRECT3DDEVICE9	mpGraphicDevice12;
 
 public:
 	static void Create(); // 생성
