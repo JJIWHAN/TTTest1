@@ -20,6 +20,8 @@ private:
 	uInt aaa1;
 	uInt aaa2;
 	uInt aaa3;
+LPDIRECT3DDEVICE9	mpGraphicDevice11;
+LPDIRECT3DDEVICE9	mpGraphicDevice12;
 
 public:
 	static void Create(); // 생성
