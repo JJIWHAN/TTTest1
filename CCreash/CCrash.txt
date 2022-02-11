@@ -3,7 +3,6 @@
 
 BEGIN(Engine)
 
-// 클라이언트에서 사용될 게임오브젝트의 부모 클래스
 class CImguiManager final : public CBase
 {
 	DECLARE_SINGLETON(CImguiManager);
@@ -22,6 +21,11 @@ public:
 
 public:
 	virtual void Free() override; // 장치를 지워준다.
+virtual virtual Free() override; // 장as치를 지asd워준다.
+virtual virtual Free() override; // 장as치를 지asd워준다 virtual virtual Free() override; // 장치를 지워준다.
+virtual virtual Free() override; // 장치를 지워준다..
+virtual virtual Free() override; // 장치를 지워준다.
+virtual virtual Free() override; // 장치를 지워준다
 };
 
 END
