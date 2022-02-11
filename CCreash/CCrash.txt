@@ -22,10 +22,13 @@ public:
 public:
 	virtual void Free() override; // 장치를 지워준다.
 virtual virtual Free() override; // 장as치를 지asd워준다.
-virtual virtual Free() override; // 장as치를 지asd워준다 virtual virtual Free() override; // 장치를 지워준다.
+virtual virtual Free() override; // 장as치를 지asd워준다 
+virtual virtual Free() override; // 장치를 지워준다.
 virtual virtual Free() override; // 장치를 지워준다..
 virtual virtual Free() override; // 장치를 지워준다.
 virtual virtual Free() override; // 장치를 지워준다
+irtual void Free() override; // 장치를 지워준다.
+irtual void Free() override; // 장치를 지워준다.
 };
 
 END
